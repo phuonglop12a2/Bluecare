@@ -1,0 +1,38 @@
+
+fieldset.form_fieldset input[type=radio] ~ label:before {
+        content : ' ';
+        width: 23px;
+        height: 23px;
+        border: solid 1px #828282;
+        display:block;
+        border-radius: 50%;
+        position: relative;
+        margin-right: 10px;
+        left: 0;
+        top: 0;
+        background: white;
+}
+
+fieldset.form_fieldset input[type=radio]:checked ~ label:after {
+    content : ' ';
+    width: 15px;
+    height: 15px;
+    background: #00b300;
+    display:block;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    z-index: 1;
+    margin-right: 20px;
+}
+fieldset.form_fieldset input[type=radio] ~ label{
+    position:relative;
+    display: -webkit-inline-box;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+fieldset.form_fieldset input[type=radio] {
+    display: none;
+}

@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Blue care</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../css/style.css?v=6" rel="stylesheet" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <script src="../js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <link href="../bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../menuresponsive/css/sm-core-css.css" rel="stylesheet" type="text/css"/>
+        <link href="../menuresponsive/css/sm-blue/sm-blue.css?v=1" rel="stylesheet" type="text/css"/>
+        <link href="../slick/slick.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="../skdslider/skdslider.css" rel="stylesheet" type="text/css"/>
+        <link href="../formstone/css/site.css" rel="stylesheet" type="text/css"/>
+        <link href="../datepicker/jquery.datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../customscrollbar/jquery.custom-scrollbar.css" rel="stylesheet" type="text/css"/>
+        <link href="../comboselect/combo.select.css" rel="stylesheet" type="text/css"/>
+        <link href="../parallax_slider/css/parallaxslider.css" rel="stylesheet" type="text/css"/>
+        <link href="../cusom_radio/customradio.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" type="image/png" href="../images/favicon.png" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <div class="register-via-app upper-case">
+            Đăng ký qua app để nhận mã giảm giá 10%
+            <button class="upper-case">Đăng ký</button>
+            <span class="close-btn"></span>
+        </div>
+        <header>
+            <div class="header-top">
+                <div class="wrapper logo-bar clear-fix">
+                    <a href="index.html"><img src="../images/1 menu logo.png" alt=""/></a>
+                    <div class="sta-list">
+                        <ul>
+                            <li><a href="#" data-popup=".advisory">Tư vấn miễn phí</a></li>
+                            <li><a href="#" data-popup=".rate">Đánh giá dịch vụ</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="tel:0985768181" class="hotline">Hotline: 098 576 8181</a></li>
+                            <li><a href="#">Tải app</a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="primary-background">
+                <nav id="main-nav" class="wrapper">
+                    <!-- Mobile menu toggle button (hamburger/x icon) -->
+
+                    <input id="main-menu-state" type="checkbox" />
+                    <label class="main-menu-btn" for="main-menu-state">
+                        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+                    </label>
+                    <!-- Sample menu definition -->
+                    <ul id="main-menu" class="sm sm-blue">
+                        <li><a href="gioi-thieu-bluecare.html">Giới thiệu</a></li>
+                        <li><a href="danh-sach-service.html">Dịch vụ</a>
+                            <ul>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/1 cham soc dieu duong.png" alt=""/>
+                                        </div>
+                                        <a>Điều dưỡng - Chăm sóc</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv1_dieu_duong_cham_soc_tai_nha.html">Chăm sóc tại nhà</a></li>
+                                        <li><a href="dv2_dieu_duong_cham_soc_tai_benh_vien.html">Chăm sóc tại bệnh viện</a></li>
+                                        <li><a href="dv3_cham_soc_suc_khoe_nguoi_gia.html">Chăm sóc người già</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/2 dieu duong thu thuat.png" alt=""/>
+                                        </div>
+                                        <a href="dv4_dieu_duong_thu_thuat.html">Điều dưỡng thủ thuật</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Thay băng vết thương và cắt chỉ 1 vết thương</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Thay băng vết thương và cắt chỉ 2 vết thương</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Thay băng vết thương và cắt chỉ đa vết thương</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Cắt chỉ thẩm mỹ 1 vết thương</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Cắt chỉ thẩm mỹ 2 vết thương</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Cắt chỉ thẩm mỹ đa vết thương</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Thụt tháo đại tràng</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Các thủ thuật khác</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Đặt Sonde Tiểu</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Đặt Sonde dạ dày</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Hút đờm đãi</a></li>
+                                        <li><a href="dv4_dieu_duong_thu_thuat.html">Chạy khí rung tại nhà</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/3 PHCN.png" alt=""/>
+                                        </div>
+                                        <a href="dv5_phuc_hoi_chuc_nang.html">Phục hồi chức năng</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv5_phuc_hoi_chuc_nang.html">PHCN sau tai biến</a></li>
+                                        <li><a href="dv5_phuc_hoi_chuc_nang.html">PHCN sau phẫu thuật</a></li>
+                                        <li><a href="dv5_phuc_hoi_chuc_nang.html">PHCN sau tai nạn</a></li>
+                                        <li><a href="dv5_phuc_hoi_chuc_nang.html">PHCN bại não ở trẻ</a></li>
+                                        <li><a href="dv5_phuc_hoi_chuc_nang.html">PHCN cho người bị liệt</a></li>
+                                        <li><a href="dv5_phuc_hoi_chuc_nang.html">PHCN chấn thương thể thao</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/4 Cham cuu bam huyet.png" alt=""/>
+                                        </div>
+                                        <a href="dv6_cham_cuu_bam_huyet.html">Y học cổ truyền</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv6_cham_cuu_bam_huyet.html">Châm cứu - Bấm huyệt</a></li>
+                                        <li><a href="dv6_cham_cuu_bam_huyet.html">Xoa bóp- Bấm huyệt</a></li>
+                                        <li><a href="dv6_cham_cuu_bam_huyet.html">Châm cứu - Tác động cột sống</a></li>
+                                        <li><a href="dv6_cham_cuu_bam_huyet.html">Bấm huyệt - Tác động cột sống</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/5 me va be.png" alt=""/>
+                                        </div>
+                                        <a >Chăm sóc mẹ và bé</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv8_tam_be.html">Tắm bé</a></li>
+                                        <li><a href="dv9_cham_soc_me_sau_sinh.html">Tắm bé kết hợp thăm khám</a></li>                 
+                                        <li><a href="dv9_cham_soc_me_sau_sinh.html">Chăm sóc mẹ sau sinh</a></li>
+                                        <li><a href="dv10_thong_tac_tia_sua.html">Thông tắc tia sữa</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/7 dat lich kham.png" alt=""/>
+                                        </div>
+                                        <a href="dv14_kham_tai_nha.html">Đặt lịch khám</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv14_kham_tai_nha.html">Nhi khoa</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Nội tiết</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Sản khoa</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Mắt</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Răng Hàm Mặt</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Tai Mũi Họng</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Tiêu hóa - Gan mật</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Cơ xương khớp</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Ung thư</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Tiết niệu</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Nam học</a></li>
+                                        <li><a href="dv14_kham_tai_nha.html">Dinh dưỡng</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/6 xet nghiem.png" alt=""/>
+                                        </div>
+                                        <a href="dv11_xet_nghiem_tai_nha.html">Xét nghiệm</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv11_xet_nghiem_tai_nha.html">Xét nghiệm tổng quát</a></li>
+                                        <li><a href="dv11_xet_nghiem_tai_nha.html">Tầm soát ung thư</a></li>
+                                        <li><a href="dv11_xet_nghiem_tai_nha.html">Xét nghiệm thai kỳ</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/8 cho thue TBYT.png" alt=""/>
+                                        </div>
+                                        <a href="dv7_cho_thue_thiet_bi_y_te.html">Cho thuê TBYT</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Chăm sóc hô hấp</a></li>
+                                        <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Chăm sóc giấc ngủ</a></li>
+                                        <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Chăm sóc mẹ và bé</a></li>
+                                        <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Chăm sóc tim mạch</a></li>
+                                        <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Chăm sóc lão khoa và vận động</a></li>
+                                        <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Chăm sóc chỉnh hình và vật lý trị liệu</a></li>
+                                        <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Khác</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/9 Thien - yoga.png" alt=""/>
+                                        </div>
+                                        <a >Thiền / Yoga</a>
+                                    </div>   
+                                    <ul>
+                                        <li><a href="dv12_thien.html">Thiền</a></li>
+                                        <li><a href="dv13_yoga.html">Yoga</a></li>
+                                    </ul>
+                                </li>
+                                <li class="icon-menu">
+                                    <div class="menu-item-header-group">
+                                        <div class="image-menu">
+                                            <img src="../images/icon-menu/10 dinh duong thucpham.png" alt=""/>
+                                        </div>
+                                        <a href="dv15_dinh_duong_thuc_pham.html">Dinh dưỡng thực phẩm</a>
+                                    </div>
+                                    <ul>
+                                        <li><a href="dv15_dinh_duong_thuc_pham.html">Thực phẩm BVSK</a></li>
+                                        <li><a href="dv15_dinh_duong_thuc_pham.html">Bổ sung dinh dưỡng</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="http://blog.bluecare.vn">Blog</a></li>
+                        <li><a href="tuyen-dung-bluecare.html">Tuyển dụng</a></li>
+                        <li><a href="tro-thanh-bluecare.html">Trở thành bluecare</a></li>
+                        <li><a href="hop-tac.html">Hợp tác</a></li>
+                        <li><a href="tro-giup.html">Trợ giúp</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu wrapper"></div>
+        </header>
+        <div class="content">
+            <section id="slider-space"> 
+                <div id="myparallaxslider" class="parallaxslider">
+                    <div class="slide">
+                        <div class="banner">
+                            <!--<div class="bgoverlay" data-bgimage="../images/3 Banner Bluecare slide 2.png"></div>-->
+                            <div class="bgoverlay" data-bgimage="none"></div>
+                            <div class="banner-image">
+                                <img src="../images/Banner/Homepage Banner Bluecare slide 1.jpg" alt=""/>
+                            </div>
+                            <div class="banner-content-outer desc">
+                                <div class="banner-content vertical-layout wrapper">
+                                    <div class="title-image">
+                                        <img src="../images/2 banner logo.png" alt=""/>
+                                    </div>
+                                    <div class="banner-title">
+                                        <h3><b>Hệ sinh thái chăm sóc sức khỏe tại nhà toàn diện cho mọi người</b></h3>
+                                    </div>
+                                    <div class="banner-short-decription">
+                                        <p>Nhân viên y tế chăm sóc bệnh nhân tại nhà chỉ từ <b>25.000đ/giờ</b></p>
+                                    </div>
+                                    <div class="header-button">
+                                        <button class="orange-button round-button">
+                                            <a href="tel:0955768181"> Gọi hotline ngay</a>
+                                        </button>
+                                        <button class="blue-button round-button">
+                                            Đặt lịch online ngay
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="banner">
+                            <!--<div class="bgoverlay" data-bgimage="../images/3 Banner Bluecare slide 2.png"></div>-->
+                            <div class="bgoverlay" data-bgimage="none"></div>
+                            <div class="banner-image">
+                                <img src="../images/Banner/Homepage Banner Bluecare slide 2.jpg" alt=""/>
+                            </div>
+                            <div class="banner-content-outer desc">
+                                <div class="banner-content vertical-layout wrapper">
+                                    <div class="title-image">
+                                        <img src="../images/2 banner logo.png" alt=""/>
+                                    </div>
+                                    <div class="banner-title">
+                                        <h3><b>Hệ sinh thái chăm sóc sức khỏe tại nhà toàn diện cho mọi người</b></h3>
+                                    </div>
+                                    <div class="banner-short-decription">
+                                        <p>Nhân viên y tế chăm sóc bệnh nhân tại nhà chỉ từ <b>25.000đ/giờ</b></p>
+                                    </div>
+                                    <div class="header-button">
+                                        <button class="orange-button round-button">
+                                            <a href="tel:0955768181"> Gọi hotline ngay</a>
+                                        </button>
+                                        <button class="blue-button round-button">
+                                            Đặt lịch online ngay
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="banner">
+                            <!--<div class="bgoverlay" data-bgimage="../images/3 Banner Bluecare slide 2.png"></div>-->
+                            <div class="bgoverlay" data-bgimage="none"></div>
+                            <div class="banner-image">
+                                <img src="../images/Banner/Homepage Banner Bluecare slide 3.jpg" alt=""/>
+                            </div>
+                            <div class="banner-content-outer desc">
+                                <div class="banner-content vertical-layout wrapper">
+                                    <div class="title-image">
+                                        <img src="../images/2 banner logo.png" alt=""/>
+                                    </div>
+                                    <div class="banner-title">
+                                        <h3><b>Hệ sinh thái chăm sóc sức khỏe tại nhà toàn diện cho mọi người</b></h3>
+                                    </div>
+                                    <div class="banner-short-decription">
+                                        <p>Nhân viên y tế chăm sóc bệnh nhân tại nhà chỉ từ <b>25.000đ/giờ</b></p>
+                                    </div>
+                                    <div class="header-button">
+                                        <button class="orange-button round-button">
+                                            <a href="tel:0955768181"> Gọi hotline ngay</a>
+                                        </button>
+                                        <button class="blue-button round-button">
+                                            Đặt lịch online ngay
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper-outter absolute services-dock">
+                    <ul class="services-dock horizontal-align wrapper">
+                        <li>
+                            <a href="dv1_dieu_duong_cham_soc_tai_nha.html">
+                                <div class="service-dock-image cstn">
+                                </div>
+                                <div class="content">
+                                    <h5>
+                                        Điều dưỡng chăm sóc tại nhà
+                                    </h5>
+                                    <p class="hide-contents">
+                                        Hỗ trợ chăm sóc <br> bệnh nhân tại nhà
+                                    </p>
+                                    <span class="hide-details">
+                                        Xem chi tiết
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dv5_phuc_hoi_chuc_nang.html">
+                                <div class="service-dock-image phcn">
+                                </div>
+                                <div class="content">
+                                    <h5>
+                                        Phục hồi chức năng
+                                    </h5>
+                                    <p class="hide-contents">
+                                        Hướng dẫn tập và hỗ trợ phục hồi chức năng bằng vật lý trị liệu và vận động trị liệu
+                                    </p>
+                                    <span class="hide-details">
+                                        Xem chi tiết
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dv8_tam_be.html">
+                                <div class="service-dock-image tb">
+                                </div>
+                                <div class="content">
+                                    <h5>
+                                        Tắm bé
+                                    </h5>
+                                    <p class="hide-contents">
+                                        Khám sức khỏe sơ bộ, tắm, mát xa cho bé
+                                    </p>
+                                    <span class="hide-details">
+                                        Xem chi tiết
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dv7_cho_thue_thiet_bi_y_te.html">
+                                <div class="service-dock-image service-health-image bhyt">
+                                </div>
+                                <div class="content">
+                                    <h5>
+                                        Cho thuê thiết bị y tế
+                                    </h5>
+                                    <p class="hide-contents">
+                                        Cho thuê thiết bị y tế gia đình và thiết bị phcn
+                                    </p>
+                                    <span class="hide-details">
+                                        Xem chi tiết
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="danh-sach-service.html">
+                                <div class="service-dock-image all-services-image xemtiep">
+                                </div>
+                                <div class="content">
+                                    <h5>
+                                        Xem tất cả dịch vụ
+                                    </h5>
+                                    <p>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="white-section wrapper default-section">
+                <h2 class="primary-color upper-case"><b>Cùng bạn chăm sóc gia đình</b></h2>
+                <p class="large-size">Bình phục nhanh hơn với bluecare</p>
+                <ul id="header-2-column" class="column-group">
+                    <li class="column-half">
+                        <div class="column-inner">
+                            <div class="item-image">    
+                                <img src="../images/Homepage/1-Homepage-2a.png" alt=""/>
+                            </div>
+                            <div class="item-content">
+                                <h5 class="upper-case yellow-color">Chăm sóc bệnh nhân tại nhà - bệnh viện</h5>
+                                <p><b>"Chu đáo, tận tình"</b></p>
+                                <ul>
+                                    <li>Nhân viên của Bluecare sẽ đến chăm sóc bệnh nhân tại nhà, bệnh viện hoặc tại địa chỉ theo yêu cầu</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="column-half">
+                        <div class="column-inner">
+                            <div class="item-image">    
+                                <img src="../images/Homepage/1-Homepage-2b.png" alt=""/>
+                            </div>
+                            <div class="item-content">
+                                <h5 class="upper-case yellow-color">Trang thiết bị y tế hiện đại</h5>
+                                <p><b>"An toàn, chính xác"</b></p>
+                                <ul>
+                                    <li>Nhân viên Bluecare được trang bị nhưng trang thiết bị y  tế và vật tư hiện đại, chất lượng cao của các thương hiệu hàng đầu thế giới.</li>
+                                    <li>Vật tư và thiết bị y tế được vô chừng và quản lý theo quy trình của Hà Lan.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="column-half">
+                        <div class="column-inner">
+                            <div class="item-image">    
+                                <img src="../images/Homepage/1-Homepage-2c.png" alt=""/>
+                            </div>
+                            <div class="item-content">
+                                <h5 class="upper-case yellow-color">Nhân viên giàu y đức và kinh nghiệm</h5>
+                                <p><b>"Hiệu quả, tin cậy"</b></p>
+                                <ul>
+                                    <li>Nhân viên, đối tác của Bluecare được tuyển chọn từ các bệnh viện và cơ sở y tế hàng đầu.</li>
+                                    <li>Nhân viên, đối tác được Bluecare đào tạo liên tục về các quy trình thăm khám, chăm sóc và điều trị của vương quốc Hà Lan.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="column-half"> 
+                        <div class="column-inner">
+                            <div class="item-image">    
+                                <img src="../images/Homepage/1-Homepage-2d.png" alt=""/>
+                            </div>
+                            <div class="item-content">
+                                <h5 class="upper-case yellow-color">Luôn luôn sẵn sàng và nhanh chóng</h5>
+                                <p><b>"Thuận tiện, chủ động"</b></p>
+                                <ul>
+                                    <li>Nhân viên Bluecare được trang bị những trang thiết bị y tế và vật tư hiện đại, chất lượng cao của các thương hiệu hàng đầu thế giới.</li>
+                                    <li>Vật tư và thiết bị y tế được vô trùng và quản lý theo quy trình của Hà Lan.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="doctors wrapper default-section">
+                <div class="inner">
+                    <div class="doctor-item">
+                        <div class="doctor-image">
+                            <img src="../images/Homepage/5 nv-bacsi.png" alt=""/>
+                        </div>
+                        <p class="number-of doctor">62</p>
+                        <p class="primary-color">Bác sĩ</p>
+                    </div>
+
+                    <div class="doctor-item">
+                        <div class="doctor-image">
+                            <img src="../images/Homepage/6 nv-dieuduong.png" alt=""/>
+                        </div>
+                        <p class="number-of doctor">150</p>
+                        <p class="primary-color">Điều dưỡng</p>
+                    </div>
+
+                    <div class="doctor-item">
+                        <div class="doctor-image">
+                            <img src="../images/Homepage/7 nv-ktv.png" alt=""/>
+                        </div>
+                        <p class="number-of doctor">167</p>
+                        <p class="primary-color">KTV PHCN</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </section>
+
+            <section class="insuarance-section horizontal-layout wrapper default-section">
+                <div class="insurance-item">
+                    <h5 class="yellow-color upper-case">Bảo hiểm tài sản cho gia đình</h5>
+                    <p class="large-size">"An tâm"</p>
+                    <ul>
+                        <li>Mọi nhân viên của Bluecare đều được lựa chọn khắt khe không chỉ giỏi chuyên môn mà còn đòi hỏi hồ sơ rõ ràng, lý lịch pháp lý trong sạch.</li>
+                        <li>Bluecare chịu trách nhiệm bảo hiểm cho các mất mát về tài sản nếu có liên.</li>
+                    </ul>
+                </div>
+                <div class="insurance-item">
+                    <img src="../images/Homepage/8 bao hiem.png" alt=""/>
+                </div>
+            </section>
+
+            <section class="grey-section when-need-us-section default-section">
+                <div class="wrapper">
+                    <h3 class="upper-case primary-color"><b>Bạn cần bluecare khi nào</b></h3>
+                    <ul class="items">
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi nhà bạn có người nhà ốm</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Những công việc của bạn quá nhiều và quan trọng không thể nghỉ để chăm sóc cho người lớn tại nhà hay bệnh viện, osin thiếu kiến thức và kỹ năng chăm sóc y tế
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi nhà bạn có người nhà ốm</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Những công việc của bạn quá nhiều và quan trọng không thể nghỉ để chăm sóc cho người lớn tại nhà hay bệnh viện, osin thiếu kiến thức và kỹ năng chăm sóc y tế
+                                </p>
+                            </div>
+                        </li>
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi bạn hoặc người nhà cần thay băng, cắt chỉ, rửa vết thương</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Nhưng công việc của bạn quá nhiều và quan trọng không thể nghỉ để chăm sóc cho người ốm tại nhà hay bệnh viện, osin thì thiếu kiến thức và kỹ năng chăm sóc y tế
+                                </p>
+                            </div>
+                        </li>
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi bạn hoặc người nhà cần sử dụng các thiết bị phục hồi chức năng, thiết bị y tế</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Những người bệnh vẫn còn đau, việc di chuyển đi lại khó khăn, thủ tục vào viện phức tạp, tốn thời gian
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi nhà mới bạn có thêm một thiên thần</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    Nhưng bạn và vợ chưa biết cách tắm bé, bạn cần người có kỹ năng tắm bé, massage cho bé, có khả năng khám sức khỏe sơ bộ cho bé để đảm bảo bé luôn luôn được sạch
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi vợ bạn mới sinh em bé</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    và cơ thể cô ấy thay đổi nhiều, cô ấy bị căng thẳng và có dấu hiệu trầm cảm sau sinh bạn cần một chuyên gia chăm sóc phục hồi sau sinh cho vợ mình để phục hồi lại thể chất cũng như tinh thần cho cô ấy
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi bạn cần nâng cao sức khỏe thể chất cũng như tinh thần và cần chữa một số bệnh</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    bạn cần tập Yoga, Thiền để cải thiện sức khỏe thể chất và tinh thần nhưng bạn không thể có lịch cố định cho các lớp học, bạn cần có huấn luyện viên riêng huấn luyện theo khung giờ linh hoạt mà bạn có thể chủ động
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="vertical-layout">
+                            <div class="horizontal-layout">
+                                <div class="image">
+                                    <img src="../images/Homepage/9-icon-can-khi-nao-demo.png" alt=""/>
+                                </div>
+                                <h5 class="primary-color"><b>Khi bạn cần chuyển sang chế độ thực dưỡng để chữa bệnh</b></h5>
+                            </div>
+                            <div>
+                                <p>
+                                    bạn cần tập Yoga, Thiền để cải thiện sức khỏe thể chất và tinh thần nhưng bạn không thể có lịch cố định cho các lớp học, bạn cần có huấn luyện viên riêng huấn luyện theo khung giờ linh hoạt mà bạn có thể chủ động
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="mobile-app-section default-section">
+                <img src="../images/App/10 app background.png" alt=""/>
+                <div class="wrapper mobile-app-content horizontal-layout">
+                    <div class="mobile-app-content-left">
+                        <img src="../images/Homepage/homepage mobie app.png" alt=""/>
+                    </div>
+                    <div class="mobile-app-content-right">
+                        <h3 class="upper-case"><b>Tải ứng dụng bluecare ngay</b></h3>
+                        <p><b>Giải pháp chăm sóc sức khẻo toàn diện tại nhà cho bạn và gia đình chỉ với một lần chạm tay</b></p>
+                        <ul>
+                            <li><p><b>Bước 1: </b>Vào Appstore với iphone hoặc CH Play với Android</p></li>
+                            <li><p><b>Bước 2: </b>Nhập Bluecare vào ô tìm kiếm, chọn OK</p></li>
+                            <li><p><b>Bước 3: </b>Nhấn tải về</p></li>
+                            <li><p><b>Bước 4: </b>Đăng ký</p></li>
+                        </ul>
+                        <div class="app-button">
+                            <a href="#">
+                                <img src="../images/App/10 app icon appstore.png" alt=""/>
+                            </a>
+                            <a href="#">
+                                <img src="../images/App/10 app icon ch-play.png" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="wrapper comunity default-section">
+                <h3 class="upper-case primary-color"><b>Bluecare và truyền thông</b></h3>
+                <div class="comunity-content horizontal-layout">
+                    <div class="comunity-item">
+                        <img src="../images/11 truyen thong 1.png" alt=""/>
+                    </div>
+                    <div class="comunity-item">
+                        <img src="../images/11 truyen thong 2.png" alt=""/>
+                    </div>
+                    <div class="comunity-item">
+                        <img src="../images/11 truyen thong 3.png" alt=""/>
+                    </div>
+                </div>
+            </section>
+            <section class="clients carousel default-section">
+                <div class="wrapper">
+                    <h3 class="upper-case"><b>Khách hàng nói gì về bluecare</b></h3>
+                    <div class="slidermoves">
+                        <div>
+                            <i class="fa fa-angle-left"></i>
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="slickslider client-review slider">
+                        <div class="client-item">
+                            <div class="client-image">
+                                <img src="../images/12 review KH 1.png" alt=""/>
+                            </div>
+                            <p><span>Nguyễn xuân phương</span></p>
+                            <p><span>Trưởng phòng nhân sự ACB Bank</span></p>
+                            <p>Tôi cảm thấy rất dễ dàng và thoải mái khi có được dịch vụ chăm sóc sức khỏe chất lượng chuyên nghiệp cho tôi và gia đình chỉ cần 1 thao tác trên điện thoại</p>
+                        </div>
+                        <div class="client-item">
+                            <div class="client-image">
+                                <img src="../images/12 review KH 2.png" alt=""/>
+                            </div>
+                            <p><span>Nguyễn xuân phương</span></p>
+                            <p><span>Trưởng phòng nhân sự ACB Bank</span></p>
+                            <p>Tôi cảm thấy rất dễ dàng và thoải mái khi có được dịch vụ chăm sóc sức khỏe chất lượng chuyên nghiệp cho tôi và gia đình chỉ cần 1 thao tác trên điện thoại</p>
+                        </div>
+                        <div class="client-item">
+                            <div class="client-image">
+                                <img src="../images/12 review KH 1.png" alt=""/>
+                            </div>
+                            <p><span>Nguyễn xuân phương</span></p>
+                            <p><span>Trưởng phòng nhân sự ACB Bank</span></p>
+                            <p>Tôi cảm thấy rất dễ dàng và thoải mái khi có được dịch vụ chăm sóc sức khỏe chất lượng chuyên nghiệp cho tôi và gia đình chỉ cần 1 thao tác trên điện thoại</p>
+                        </div>
+                        <div class="client-item">
+                            <div class="client-image">
+                                <img src="../images/12 review KH 2.png" alt=""/>
+                            </div>
+                            <p><span>Nguyễn xuân phương</span></p>
+                            <p><span>Trưởng phòng nhân sự ACB Bank</span></p>
+                            <p>Tôi cảm thấy rất dễ dàng và thoải mái khi có được dịch vụ chăm sóc sức khỏe chất lượng chuyên nghiệp cho tôi và gia đình chỉ cần 1 thao tác trên điện thoại</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="video-introdution default-section">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/MnebafIionc?autoplay=0&loop=1">
+                </iframe>
+            </section>
+        </div>
+        <footer>
+            <div class="wrapper">
+                <ul class="horizontal-layout bluecare-footer">
+                    <li class="bluecare-footer-item">
+                        <h5>Về Bluecare</h5>
+                        <ul>
+                            <li><a href="gioi-thieu-bluecare.html">Giới thiệu Bluecare</a></li>
+                            <li><a href="#">Tầm nhìn Bluecare</a></li>
+                            <li><a href="tro-thanh-bluecare.html">Bluecare Team</a></li>
+                            <li><a href="#">Báo chí nói về Bluecare</a></li>
+                            <li><a href="#">Tại sao chọn Bluecare</a></li>
+                            <li><a href="tuyen-dung-bluecare.html">Tuyển dụng</a></li>
+                            <li><a href="#">Đối tác</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="chinh-sach-bao-mat.html">Chính sách bảo mật</a></li>
+                            <li><a href="dieu-khoan-su-dung.html">Điều khoản sử dụng</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="bluecare-footer-item footer-service">
+                        <h5>Các dịch vụ</h5>
+                        <ul>
+                            <li><a href="dv1_dieu_duong_cham_soc_tai_nha.html">Hỗ trợ chăm sóc tại nhà</a></li>
+                            <li><a href="dv2_dieu_duong_cham_soc_tai_benh_vien.html">Hỗ trợ chăm sóc tại bệnh viện</a></li>
+                            <li><a href="dv3_cham_soc_suc_khoe_nguoi_gia.html">Hỗ trợ chăm sóc người già</a></li>
+                            <li><a href="dv4_dieu_duong_thu_thuat.html">Điều dưỡng thủ thuật</a></li>
+                            <li><a href="dv5_phuc_hoi_chuc_nang.html">Phục hồi chức năng</a></li>
+                            <li><a href="dv6_cham_cuu_bam_huyet.html">Châm cứu, bấm huyệt</a></li>
+                            <li><a href="dv7_cho_thue_thiet_bi_y_te.html">Cho thuê thiết bị y tế</a></li>
+                            <li><a href="dv8_tam_be.html">Tắm bé</a></li>
+                            <li><a href="dv9_cham_soc_me_sau_sinh.html">Chăm sóc mẹ sau sinh</a></li>
+                            <li><a href="dv10_thong_tac_tia_sua.html">Thông tắc tia sữa</a></li>
+                            <li><a href="dv11_xet_nghiem_tai_nha.html">Xét nghiệm tại nhà</a></li>
+                            <li><a href="#">Tầm soát ung thư</a></li>
+                            <li><a href="dv14_kham_tai_nha.html">Đặt lịch khám</a></li>
+                            <li><a href="dv12_thien.html">HLV Thiền tại nhà</a></li>
+                            <li><a href="dv13_yoga.html">HLV Yoga tại nhà</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="bluecare-footer-item">
+                        <h5>Trung tâm hỗ trợ</h5>
+                        <ul>
+                            <li><a href="#">Phản hồi khách hàng</a></li>
+                            <li><a href="#">Hỏi đáp (FAQ)</a></li>
+                            <li><a href="#">Bluecare's Blog</a></li><li><a href="#">Thư viện ảnh</a></li><li><a href="#">Thư viện video</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="bluecare-footer-item">
+                        <h5>Mạng xã hội</h5>
+                        <ul>
+                            <li>Hotline: <a href="tel:0985768181">098 576 8181</a></li>
+                            <li>Email: <a href="mailto:infor@bluecare.vn">infor@bluecare.vn</a></li>
+                            <li>Facebook: <a href="fb.com/bluecare.vn">fb.com/bluecare.vn</a></li>
+                            <li>
+                                <a href="https://www.facebook.com/BLUECAREVN/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.youtube.com/channel/UC8Tj1v8ZXS7FGRoZidpTPnw"><i class="fa fa-youtube"></i></a>
+                                <a href="https://plus.google.com/105298293858626405632"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <section class="popup-window rate inactive">
+            <div class="inner">
+                <form>
+                    <div class="info-field">
+                        <input type="text" name="name" placeholder="Tên"/>
+                        <input type="text" name="phone" placeholder="Số điện thoại"/>
+                    </div>
+                    <strong>Bạn có hài lòng với dịch vụ của Bluecare không?</strong>
+                    <div class="radio-field"><input type="radio" name="contentment" value="1" /> Rất hài lòng</div>
+                    <div class="radio-field"><input type="radio" name="contentment" value="2" /> Khá hài lòng</div>
+                    <div class="radio-field"><input type="radio" name="contentment" value="3" /> Bình thường</div>
+                    <div class="radio-field"><input type="radio" name="contentment" value="4" /> Không hài lòng</div>
+                    <textarea placeholder="Hãy cho chúng tôi biết cảm nhận của bạn về dịch vụ của Bluecare" name="feel" rows="4"></textarea>
+                    <div class="btn-field"><input type="submit" class="blue-button" value="Gửi đánh giá"/></div>
+                </form>
+                <div class="close-btn"></div>
+            </div>
+        </section>
+        <section class="popup-window advisory inactive">
+            <div class="inner">
+                <form>
+                    <div class="info-field">
+                        <input type="text" name="name" placeholder="Tên"/>
+                        <input type="text" name="phone" placeholder="Số điện thoại"/>
+                    </div>
+                    <strong>Chọn dịch vụ cần tư vấn</strong>
+                    <ul class="radio-field clear-fix">
+                        <li>
+                            <input type="radio" name="service" value="1"/>Chăm sóc - điều dưỡng
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="2"/>Đặt lịch khám
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="3"/>Điều dưỡng thủ thuật
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="4"/>Xét nghiệm
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="5"/>Phục hồi chức năng
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="6"/>Cho thuê thiết bị y tế
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="7"/>Y học cổ truyền
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="8"/>Thiền/Yoga
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="9"/>Chăm sóc mẹ và bé
+                        </li>
+                        <li>
+                            <input type="radio" name="service" value="10"/>Dinh dưỡng thực phẩm
+                        </li>
+                    </ul>
+                    <div class="btn-field"><input type="submit" value="Nhận tư vấn"/></div>
+                </form>
+                <div class="close-btn"></div>
+            </div>
+        </section>
+
+        <script src="../menuresponsive/js/jquery.smartmenus.js" type="text/javascript"></script>
+        <script src="../slick/slick.min.js" type="text/javascript"></script>
+        <script src="../skdslider/skdslider.min.js" type="text/javascript"></script>
+        <script src="../datepicker/jquery.datetimepicker.full.min.js" type="text/javascript"></script>
+        <script src="../customscrollbar/jquery.custom-scrollbar.js" type="text/javascript"></script>
+        <script src="../customscrollbar/select_box.js" type="text/javascript"></script>
+        <script src="../comboselect/jquery.combo.select.js" type="text/javascript"></script>
+        <script src="../parallax_slider/js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+        <script src="../parallax_slider/js/jquery.velocity.min.js" type="text/javascript"></script>
+        <script src="../parallax_slider/js/parallaxslider.js" type="text/javascript"></script>
+        <script src="../js/app.js?v=2" type="text/javascript"></script>
+    </body>
+</html>
